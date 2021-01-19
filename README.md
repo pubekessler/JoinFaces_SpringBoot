@@ -1,6 +1,6 @@
 # JoinFaces_SpringBoot
 
-Projeto Base
--Java 11
--Spring Boot 2.3.9
--Joinfaces 4.3.6
+Projeto Base<br/>
+-Java 11<br/>
+-Spring Boot 2.3.9<br/>
+-Joinfaces 4.3.6<br/>
