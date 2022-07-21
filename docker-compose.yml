@@ -1,0 +1,17 @@
+version: '3'
+services:
+  demo-primefaces:
+    image: demo-primefaces:latest
+    restart: unless-stopped
+    ports:
+      - "8888:8080"
+    environment:
+      JAVA_PROFILE: prod
+      TZ: America/Fortaleza
+    volumes:
+      - /tmp:/tmp
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10M"
+        max-file: "3"
